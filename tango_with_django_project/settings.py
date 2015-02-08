@@ -92,6 +92,8 @@ STATIC_URL = '/static/'
 
 STATIC_PATH = os.path.join(BASE_DIR,'static')
 
+LOGIN_URL = '/rango/login/'
+
 
 STATICFILES_DIRS = (
     STATIC_PATH,
