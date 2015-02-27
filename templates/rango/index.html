@@ -5,7 +5,8 @@
 {% block body_block %}
 
     {% if user.is_authenticated %}
-    <h1>Rango says... hello {{ user.username }}!</h1>
+    <h1>Rango says... hello {{ user.username }}! </h1>
+    <a href="/rango/restricted">Restricted Page</a>
     {% else %}
     <h1>Rango says... hello world!</h1>
     {% endif %}
