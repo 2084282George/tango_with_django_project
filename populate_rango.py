@@ -32,11 +32,11 @@ def populate():
 
     add_page(cat=george_cat,
         title="github account",
-        url="github.com/2084282George/")
+        url="http://www.github.com/2084282George/")
 
     add_page(cat=george_cat,
         title="pythonanywhere account",
-        url="www.pythonanywhere.com/user/2084282George")
+        url="http://www.pythonanywhere.com/user/2084282George")
 
 
 
